@@ -3,7 +3,7 @@
 
 function addEmployee() {
     let name = document.getElementById("name").value;
-    let empid = document.getElementById("empId").value;
+    let empid = document.getElementById("empid").value;
     let salary = parseFloat(document.getElementById("salary").value);
     let dept = document.getElementById("dept").value;
 
