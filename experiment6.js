@@ -26,7 +26,7 @@ document.getElementById("fontSizeBtn").addEventListener("click", function () {
 // Show/Hide paragraph
 document.getElementById("toggleBtn").addEventListener("click", function () {
     if (paragraph.style.display === "none") {
-        paragraph.style.display = "block";
+        para.style.display = "block";
     } else {
         paragraph.style.display = "none";
     }
@@ -41,3 +41,6 @@ document.getElementById("resetBtn").addEventListener("click", function () {
     input.value = "";
     fontSize = 16;
 });
+heading.onmouseover=function(){
+    heading.style.color="blue";
+}
