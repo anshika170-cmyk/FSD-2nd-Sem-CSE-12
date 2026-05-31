@@ -1,0 +1,34 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,  'Trebuchet MS', sans-serif;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+.container{
+    width:650px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+} 
+input {
+    padding :8px;
+    margin:5px;
+}
+button{
+    padding: 8px 12px;
+    margin:5px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}button:hover{
+    background-color: rgb(88, 15, 156);
+
+}
+#output{
+    margin-top: 20px;
+    text-align: left;
+}
