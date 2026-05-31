@@ -1,8 +1,0 @@
-function Student([name,course.,marks]){
-    return(
-        <div className="card">
-        <h2>Name:{names}<h2>
-        <p>Course:{course}</p>
-        <p>Marks::{marks};
-    )
-}
