@@ -67,7 +67,7 @@ function totalSalary() {
 }
 
 function averageSalary() {
-    if (employees.length === 0) {
+    if (employees.length === 0) { 
         document.getElementById("output").innerHTML =
             "<h3>No employee records available</h3>";
         return;
